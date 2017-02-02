@@ -1,0 +1,35 @@
+.card {
+	border-radius: 3px;
+	box-shadow: 2px 0 2px 2px rgba(0, 0, 0, 0.1);
+	background-color: white;
+	width: 500px;
+}
+
+.card-img {
+	background-image: url('https://www.bunnyholder.com/240/335/22');
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	position: relative;
+}
+
+.card-footer{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.card-hidden{
+	opacity: 0;
+	background-color: white;
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 300ms;
+}
+
+.card:hover .card-hidden{
+	opacity: 0.9;
+}

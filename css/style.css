@@ -1,0 +1,15 @@
+@import url("components/card.css");
+
+body {
+	background-color: grey;
+}
+
+.list-inline{
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline li{
+	display: inline-block;
+	padding: 0 5px;
+}
